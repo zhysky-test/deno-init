@@ -1,6 +1,9 @@
+import chalk from "npm:chalk";
+
+console.log(chalk.green("Hello from Deno!"));
+
 const age = prompt('Please enter your age:', '18')
 console.log('Age:', age)
-
 enum ABC {
 	asd = 'asd',
 	rfv = 'gbj',
